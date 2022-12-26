@@ -1,0 +1,44 @@
+.profileForm{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+.radio{
+    display: flex;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+.male {
+    color: #333;
+    font-size: 1em;
+    line-height: 32px;
+}
+.title{
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.profileItem{
+    display: flex;
+    padding: 15px 0;
+}
+.profileInput{
+    min-width: 300px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    margin: 10px 15px;
+}
+.profileRadio{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    margin: 10px 15px;
+}
+.reason{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

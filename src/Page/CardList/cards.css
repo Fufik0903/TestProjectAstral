@@ -1,0 +1,72 @@
+.cardList{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+    width: 350px;
+    height: 250px;
+    padding: 15px 25px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgb(117, 117, 117);
+}
+.cardItem{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+.cardTitle{
+    padding-bottom: 25px;
+    font-size: 26px;
+}
+.cardWord{
+    padding: 5px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+.cardPhrase{
+    padding: 5px 0;
+    font-size: 18px;
+}
+.LearnMoreBtn{
+    color: rgb(2, 2, 117);
+    font-size: 30px;
+    border: none;
+    padding: 5px 0px;
+    background: transparent;
+    flex-grow: 1;
+}
+.translateCard{
+    animation: openModal 0.4s ease-out forwards;
+}
+.englishCard{
+    animation: closeModal 0.4s ease-out forwards;
+
+}
+@keyframes openModal {
+    0% { 
+        transform: rotateY(180deg);
+        opacity: 0;
+     }
+    100% { 
+        transform: rotateY(0deg);
+        opacity: 1;
+     }
+}
+@keyframes closeModal {
+    0% { 
+        transform: rotateY(180deg);
+        opacity: 0;
+     }
+    100% { 
+        transform: rotateY(0deg);
+        opacity: 1;
+     }
+}

@@ -1,0 +1,40 @@
+.form{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    min-height: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid silver;
+    padding: 10px 15px;
+    min-height: 350px;
+}
+.loginInput{
+    min-width: 300px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    margin: 10px 15px;
+}
+button{
+    margin: 10px 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background: green;
+    margin-top: 20px;
+    font-size: 22px;
+
+}
+.errorMessage{
+    padding: 15px 10px;
+    border: 1px solid silver;
+    background: red;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+}
